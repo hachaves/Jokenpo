@@ -46,14 +46,14 @@ public class ThreadJoKenPo extends Thread {
 		}
 		
 		if(ptA>ptB) {
-			System.out.println(jogA+" fez "+ptA+" pontos, time A ganhou essa rodada");
+			System.out.println(jogA+" conseguiu "+ptA+" pontos, time A ganhou fez ponto");
 			Principal.totalA++;
 		}else {
-			System.out.println(jogB+" fez "+ptB+" pontos, time B ganhou essa rodada");
+			System.out.println(jogB+" conseguiu "+ptB+" pontos, time B fez ponto");
 			Principal.totalB++;
 		}
-		System.out.println("TIME A POSSUI "+Principal.totalA+" PONTOS");
-		System.out.println("TIME B POSSUI "+Principal.totalB+" PONTOS");		
+		System.out.println("time A "+Principal.totalA+" pontos");
+		System.out.println("time B "+Principal.totalB+" pontos");		
 	}
 
 	private int verJogada() {

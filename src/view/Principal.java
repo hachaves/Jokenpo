@@ -7,8 +7,8 @@ public class Principal {
 	public static int totalB;
 
 	public static void main(String[] args) {
-		String nomesA[] = {"ricardo", "rafael", "marcelo", "larissa", "isabela"};
-		String nomesB[] = {"roberto", "thiago", "marcela", "larisso", "isabelo"};
+		String nomesA[] = {"henrique","pedro","luiz","augusto","vagner","lucas"};
+		String nomesB[] = {"gustavo","denis","paulo","adryen","colevati","satoshi"};
 
 		Thread t1 = new ThreadJoKenPo(nomesA[4], nomesB[0]);
 		Thread t2 = new ThreadJoKenPo(nomesA[3], nomesB[1]);
@@ -25,9 +25,9 @@ public class Principal {
 		}
 		
 		if(totalA>totalB) {
-			System.out.println("TIME A GANHOU COM "+totalA+" PONTOS");
+			System.out.println(totalA+" do time A, ganhou");
 		}else {
-			System.out.println("TIME B GANHOU COM "+totalB+" PONTOS");
+			System.out.println(totalB+" do time B, ganhou");
 		}
 	}
 
